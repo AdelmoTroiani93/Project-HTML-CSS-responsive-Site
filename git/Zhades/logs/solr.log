@@ -1,0 +1,3 @@
+WARN  - 2018-03-03 14:28:26.269; hello.helloworld; WARNING: bla bla
+ERROR - 2018-03-03 14:28:26.273; hello.helloworld; ERROR: bla bla
+INFO  - 2018-03-03 14:28:26.273; hello.helloworld; INFO: blabla
