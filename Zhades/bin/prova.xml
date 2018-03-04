@@ -1,0 +1,7 @@
+<!DOCTYPE Ingegneria SYSTEM "C:\Users\Krhos\git\Zhades\Vario\casa.dtd"><Ingegneria>
+	<corsi>
+		<titolo>
+			<dataInizio>02/11/22</dataInizio>
+			<POO></POO>
+			<Valutazioni>
+				<Valutazione Scala="5" criterio="capacità docente">4</Valutazione></Valutazioni></titolo></corsi></Ingegneria>

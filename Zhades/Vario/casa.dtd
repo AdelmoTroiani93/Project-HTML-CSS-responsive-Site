@@ -1,0 +1,10 @@
+<!ATTLIST libro tipologia CDATA #IMPLIED> 
+<!ELEMENT libro     (titolo, autore, capitolo+, indice)>
+ <!ELEMENT titolo    (#PCDATA)> <!ELEMENT autore    (#PCDATA)> 
+ <!ELEMENT capitolo  (titolo, paragrafo+)> 
+ <!ELEMENT paragrafo (codice, titolo?, testo)> 
+ <!ELEMENT testo     (#PCDATA | citazione)*>
+  <!ELEMENT citazione (#PCDATA)> 
+  <!ELEMENT codice      EMPTY> 
+  <!ELEMENT indice    (voce*)> 
+  <!ELEMENT voce      (#PCDATA)> 

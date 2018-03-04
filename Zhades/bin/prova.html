@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+ <html lang="it"> 
+ <head>  
+ <meta charset="utf-8" />  
+ <title>La mia prima pagina</title> 
+ </head>
+  <body>  
+ <section>   
+ <header>    
+ <h1>Intestazione principale</h1> 
+</header>   
+ <article>Un <strong>bla rafforzato</strong>, 
+un <em>bla enfatizzato</em> 
+ trovane altri su <a href= "http://www.google.com">google</a> 
+<img src="http://www.w3.org/html/logo/downloads/HTML5_Logo.svg"      alt="logo html5" />
+<ol>      <li>un elemento</li>      <li>un altro elemento</li>     </ol>  
+<table>  
+<caption>Lezioni</caption>  
+<tr>   
+<th>Data</th>
+<th>Argomento</th>
+<th>Tipo</th> 
+</tr>  
+<tr>  
+ <td>Lun 17 feb</td>
+<td>HTTP</td>
+<td>Lezione</td> 
+</tr>  
+<tr>   
+<td>Mar 18 feb</td>
+<td>XML</td>
+<td>Lezione</td> 
+</tr> 
+ <tr>  
+ <td>
+Mer 19 feb</td>
+<td>XML</td>
+<td>Esercitazione</td>
+ </tr>
+ </table>
+<table> 
+ <tr> 
+ <th>A</th> 
+<th>B</th>
+ <th>C</th>
+<th>C</th> </tr> 
+<tr> 
+<td>xxx</td>
+ <td>yyy</td>
+ <td>zzz</td>
+ <td>ww</td>
+  </tr>
+<tr>
+ <td colspan=“2”>due col</td>
+ <td>123</td> <td rowspan=“3”>tre righe</th>
+</tr>
+</article> 
+</section> 
+<form method="post"  action="/FormHandler"> 
+<p>Codice Fiscale <input type="text" name="codice_fiscale" size="16" maxlength="16"                
+placeholder="attenzione" />  
+Password <input type="password" name="password" size="9" maxlength="20" /></p>
+  <p>Linguaggi di programmazione:  [C# <input type="checkbox" name="dotnet" />] 
+ [C <input type="checkbox" name="c_language" checked="checked" />] 
+ [Java <input type="checkbox" name="java" />] </p> 
+ <p>Corso di studi:  
+<input type="radio" name="corso" value="270"  /></p> 
+ <input type="radio" name="corso" value="509" checked="checked" /></p>  
+<p>Esprimi un commento sul corso:</p>  
+<p><textarea name="message" cols="20" rows="5">scrivi qui</textarea>  
+<p>Quando farai l’esame:</p>  
+<p><select name="esame"> 
+ <option value="giugno" selected="selected">Giugno</option>  
+ <option value="settembre">Febbraio</option>   
+<option value="febbraio">Febbraio</option>  </select></p>  
+<input type="reset" value="Reimposta" />  
+<input type="submit" name="azione1" value="Prima azione" />
+ <input type="submit" name="azione2" value="Seconda azione" />
+</form> 
+ </body> 
+</html>

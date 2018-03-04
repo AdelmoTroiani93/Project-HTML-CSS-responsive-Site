@@ -1,0 +1,14 @@
+<articolo>
+	<titolo>CASA DI CURA</titolo>
+	<autore>
+		<nome>ADELMO</nome>
+		<midname></midname>
+		<cognome>TROIANI</cognome>
+</autore>
+	<abstract>giacolo</abstract>
+	<sezione>
+		<titolo>marcogno</titolo>sezione 1 1</sezione>
+	<bibliografia>
+		<citazione Identificatore="ID">casa</citazione>
+</bibliografia>
+</articolo>
